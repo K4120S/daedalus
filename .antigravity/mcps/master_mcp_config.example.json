@@ -1,11 +1,12 @@
 {
+    "_instructions": "Copy this file to master_mcp_config.json and fill in real values. master_mcp_config.json is gitignored — never commit real keys.",
     "mcpServers": {
         "filesystem": {
             "command": "npx",
             "args": [
                 "-y",
                 "@modelcontextprotocol/server-filesystem",
-                "/Users/k4120s/Desktop"
+                "/Users/YOUR_USERNAME/Desktop"
             ]
         },
         "brave-search": {
@@ -15,7 +16,7 @@
                 "@modelcontextprotocol/server-brave-search"
             ],
             "env": {
-                "BRAVE_API_KEY": "YOUR_API_KEY_HERE"
+                "BRAVE_API_KEY": "YOUR_BRAVE_API_KEY_HERE"
             }
         }
     }
